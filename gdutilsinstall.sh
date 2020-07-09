@@ -140,7 +140,7 @@ echo
 read -p """请输入机器人token并回车
     Your Bot Token =>:""" YOUR_BOT_TOKEN
 #判断token是否输入正确
-while [[ "${#YOUR_BOT_TOKEN}" != 46 ]]; do
+while [[ "${#YOUR_BOT_TOKEN}" != 45 ]]; do
     echo -e "\033[1;32m★★★ 机器人TOKEN输入不正确，请重新输入或按“Ctrl+C”结束安装！ ★★★\033[0m"
     read -p """请输入机器人token并回车
     Your Bot Token =>:""" YOUR_BOT_TOKEN
